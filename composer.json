@@ -3,7 +3,7 @@
     "description": "Contact package for cms_framework_seed.",
     "keywords": ["cms_framework_seed", "Contact"],
     "license": "MIT",
-    "type": "package",
+    "type": "seed-package",
     "homepage": "https://github.com/Cms_Framework_Seed/Contact",
     "authors": [
         {
