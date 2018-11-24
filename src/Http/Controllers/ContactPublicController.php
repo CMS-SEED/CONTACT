@@ -62,7 +62,7 @@ class ContactPublicController extends BaseController
         $data = $request->all();
        Mail::send('contact::emails.message', ['data' => $data], function ($message) use ($data) {
            $message->from($data['email']);
-           $message->to('swathy@renfos.com')->subject('Contact Enquiry');
+           $message->to('swathy@30hills.com')->subject('Contact Enquiry');
        });
            return $this->response->message('Success! Your message send successfully.')
                ->code(204)
